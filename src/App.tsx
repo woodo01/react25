@@ -77,7 +77,13 @@ class App extends Component<Props, State> {
             Throw Error
           </button>
         </div>
-        <div style={{ height: "80%", overflowY: "scroll" }}>
+        <div
+          style={{
+            height: "80%",
+            overflowY: "scroll",
+            backgroundColor: "aliceblue",
+          }}
+        >
           {error ? (
             <p>Error fetching items</p>
           ) : loading ? (
