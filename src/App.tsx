@@ -1,6 +1,7 @@
 import { Component } from "react";
 import "./App.css";
 import SearchBar from "./components/SearchBar.tsx";
+import Results from "./components/Results.tsx";
 
 interface Item {
   uid: string;
@@ -74,7 +75,9 @@ class App extends Component<Props, State> {
             Throw Error
           </button>
         </div>
-        <div style={{ height: "80%", overflowY: "scroll" }}></div>
+        <div style={{ height: "80%", overflowY: "scroll" }}>
+          <Results items={items} />
+        </div>
       </div>
     );
   }
