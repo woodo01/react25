@@ -9,8 +9,8 @@
   width: 34px;
   height: 34px;
   margin: 5px;
-  border: 5px solid rgb(240, 240, 240);
-  border-color: rgb(240, 240, 240) transparent rgb(240, 240, 240) transparent;
+  border: 5px solid yellowgreen;
+  border-color: yellowgreen transparent yellowgreen transparent;
   border-radius: 50%;
   content: " ";
   animation: loader 1.2s linear infinite;
