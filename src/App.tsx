@@ -81,7 +81,7 @@ class App extends Component<Props, State> {
                     style={{
                         height: '80%',
                         overflowY: 'scroll',
-                        backgroundColor: 'aliceblue',
+                        backgroundColor: 'yellow',
                     }}
                 >
                     {error ? (
