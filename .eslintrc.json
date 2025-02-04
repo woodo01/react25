@@ -8,12 +8,7 @@
         "plugin:prettier/recommended",
         "prettier"
     ],
-    "plugins": [
-        "@typescript-eslint",
-        "prettier",
-        "react",
-        "react-compiler"
-    ],
+    "plugins": ["@typescript-eslint", "prettier", "react", "react-compiler"],
     "rules": {
         "@typescript-eslint/no-explicit-any": "error",
         "prettier/prettier": "error",
